@@ -1,3 +1,4 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +10,7 @@
 
 <h1>Downloads</h1>
 
-<h2>Joe Rut - Genuine Wood Grained Finish</h2>
+<h2>Đêm Định Mệnh - Tuấn Hưng</h2>
 
 <table>
   <tr>
@@ -17,12 +18,12 @@
     <th>Audio Format</th>
   </tr>
   <tr>
-    <td>Filter</td>
-    <td><a href="musicStore/sound/jr01/Filter.mp3">MP3</a></td>
+    <td>Ghệ Iu Dấu Của Em Ơi</td>
+    <td><a href="musicStore/sound/jr01/GheIuDauCuaEmOi-TLinh.mp3">MP3</a></td>
   </tr>
   <tr>
-    <td>So Long Lazy Ray</td>
-    <td><a href="musicStore/sound/jr01/SoLongLazyRay.mp3">MP3</a></td>
+    <td>Tình Yêu Có Nghĩa Là Gì</td>
+    <td><a href="musicStore/sound/jr01/TinhYeuCoNghiaLaGi-TLinh.mp3">MP3</a></td>
   </tr>
 </table>
 

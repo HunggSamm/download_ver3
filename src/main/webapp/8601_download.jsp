@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Admin
-  Date: 09/10/2023
-  Time: 6:00 PM
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -17,7 +11,7 @@
 
 <h1>Downloads</h1>
 
-<h2>${product.description}</h2>
+<h2>99% - RPT MCK</h2>
 
 <table>
     <tr>
@@ -25,12 +19,12 @@
         <th>Audio Format</th>
     </tr>
     <tr>
-        <td>You Are a Star</td>
-        <td><a href="musicStore/sound/8601/YoureaStar.mp3">MP3</a></td>
+        <td>Anh Đã Ổn Hơn</td>
+        <td><a href="musicStore/sound/8601/AnhDaOnHon.mp3">MP3</a></td>
     </tr>
     <tr>
-        <td>Don't Make No Difference</td>
-        <td><a href="musicStore/sound/8601/DontMakeNoDifference.mp3">MP3</a></td>
+        <td>Cuốn Cho Anh Một Điếu Nữa Đi</td>
+        <td><a href="musicStore/sound/8601/CuonChoAnhMotDieuNuaDi.mp3">MP3</a></td>
     </tr>
 </table>
 

@@ -8,8 +8,8 @@
 <body>
 
 <h1>Downloads</h1>
-
-<h2>Paddlefoot - The Second CD</h2>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<h2>Ái - TLinh</h2>
 
 <table>
   <tr>
@@ -17,12 +17,12 @@
     <th>Audio Format</th>
   </tr>
   <tr>
-    <td>Neon Lights</td>
-    <td><a href="/musicStore/sound/pf02/DemiLovatoNeonLights.mp3">MP3</a></td>
+    <td>Giờ Thì Anh Đã Biết</td>
+    <td><a href="musicStore/sound/pf02/GioThiAnhDaBiet-TuanHung.mp3">MP3</a></td>
   </tr>
   <tr>
-    <td>Tank Hill</td>
-    <td><a href="musicStore/sound/pf02/HankTrill.mp3">MP3</a></td>
+    <td>Anh Vẫn Còn Yêu Em</td>
+    <td><a href="musicStore/sound/pf02/AnhVanConYeuEm-TuanHung.mp3">MP3</a></td>
   </tr>
 </table>
 

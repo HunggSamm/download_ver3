@@ -1,3 +1,4 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,19 +17,18 @@
 
 <p>
     <a href="download?action=checkUser&amp;productCode=8601">
-        86 (the band) - True Life Songs and Pictures
+        99% - RPT MCK
     </a><br>
 
     <a href="download?action=checkUser&amp;productCode=pf01">
-        Paddlefoot - The First CD
-    </a><br>
+        Đêm Định Mệnh - Tuấn Hưng    </a><br>
 
     <a href="download?action=checkUser&amp;productCode=pf02">
-        Paddlefoot - The Second CD
+        Trái Tim Khóc (Vol. 7) - Duy Mạnh
     </a><br>
 
-    <a href="download?action=checkUser&amp;productCode=jr01">
-        Joe Rut - Genuine Wood Grained Finish
+    <a  href="download?action=checkUser&amp;productCode=jr01">
+        Ái - TLinh
     </a>
 </p>
 

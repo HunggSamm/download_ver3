@@ -6,10 +6,10 @@
   <link rel="stylesheet" href="styles/main.css" type="text/css"/>
 </head>
 <body>
-
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <h1>Downloads</h1>
 
-<h2>Paddlefoot - The First CD</h2>
+<h2>Trái Tim Khóc (Vol. 7) - Duy Mạnh</h2>
 
 <table>
   <tr>
@@ -17,12 +17,12 @@
     <th>Audio Format</th>
   </tr>
   <tr>
-    <td>64 Corvair</td>
-    <td><a href="musicStore/sound/pf01/TheCorvairSong.mp3">MP3</a></td>
+    <td>Con Sẽ Không Quên</td>
+    <td><a href="musicStore/sound/pf01/ConSeKhongQuen-DuyManh.mp3">MP3</a></td>
   </tr>
   <tr>
-    <td>Whiskey Before Breakfast</td>
-    <td><a href="musicStore/sound/pf01/Whiskeybeforebreakfast.mp3">MP3</a></td>
+    <td>Kiếp Đỏ Đen</td>
+    <td><a href="musicStore/sound/pf01/KiepDoDen-DuyManh.mp3">MP3</a></td>
   </tr>
 </table>
 

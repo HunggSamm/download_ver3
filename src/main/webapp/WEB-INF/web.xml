@@ -5,7 +5,7 @@
          version="4.0">
     <servlet>
         <servlet-name>DownloadServlet</servlet-name>
-        <servlet-class>murach.download.DownloadServlet</servlet-class>
+        <servlet-class>xuanhung.com.download.DownloadServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
