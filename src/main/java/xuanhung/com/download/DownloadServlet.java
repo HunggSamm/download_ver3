@@ -43,7 +43,9 @@ public class DownloadServlet extends HttpServlet {
     public void doPost(HttpServletRequest request,
                        HttpServletResponse response)
             throws IOException, ServletException {
-
+        response.setContentType("text/html");
+        response.setCharacterEncoding("UTF-8");
+        request.setCharacterEncoding("UTF-8");
         String action = request.getParameter("action");
 
         String url = "/index.jsp";
@@ -58,6 +60,7 @@ public class DownloadServlet extends HttpServlet {
 
     private String checkUser(HttpServletRequest request,
                              HttpServletResponse response) {
+
 
         String productCode = request.getParameter("productCode");
         HttpSession session = request.getSession();
@@ -110,8 +113,16 @@ public class DownloadServlet extends HttpServlet {
         c1.setMaxAge(60 * 60 * 24 * 365 * 2);
         c1.setPath("/");
         response.addCookie(c1);
-
-        Cookie c2 = new Cookie("firstNameCookie", firstName);
+        String str = firstName;
+        StringBuilder sb = new StringBuilder(str);
+        for (int i = 0; i < sb.length(); i++) {
+            if (Character.isWhitespace(sb.charAt(i))) {
+                sb.deleteCharAt(i);
+                i--; // giảm i để kiểm tra lại vị trí hiện tại sau khi xóa
+            }
+        }
+        str = sb.toString();
+        Cookie c2 = new Cookie("firstNameCookie", str);
         c2.setMaxAge(60 * 60 * 24 * 365 * 2);
         c2.setPath("/");
         response.addCookie(c2);

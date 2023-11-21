@@ -1,0 +1,124 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin-left: 1.5em;
+    margin-right: 2em;
+    width: 500px;
+
+}
+
+h1 {
+    font-size: 180%;
+    color: teal;
+    margin-bottom: 1em;
+}
+h2 {
+    font-size: 120%;
+    color: teal;
+    margin-bottom: 1em;
+}
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"] {
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+span {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+br {
+    clear: both;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: .5em;
+}
+
+.pad_top {
+    padding-top: 0.25em;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+.align_left {
+    text-align: left;
+}
+.align_right {
+    text-align: left;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #5e5d5d;
+}
+.image{
+    width: 20px;
+}
+.left{
+    padding: 10px;
+    background-color: #251d1d;
+}
+.right{
+    padding: 10px;
+    background-color:#251d1d;
+    color: white;
+    flex: 1;
+}
+img{
+    height: 75px;
+}
+.music
+{
+    background-color: #251d1d;
+    color: white;
+}
+.music a{
+    text-decoration-line: none;
+    color: white;
+}
+.containerb{
+    padding: 10px;
+    background-color: #251d1d;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    height: 430px;
+}
+.music{
+    margin-top: 10px;
+    border-bottom: 1px solid #5e5d5d;
+}
+a:hover{
+    color: teal;
+}
+.singer{
+    font-size: 12px;
+    color: #adabab;
+}
+.link{
+    text-decoration-line: none;
+}
+.link:hover{
+    color: teal;
+}
+th{
+    background-color: teal;
+    color: white;
+}
+th,td{
+    border: 1px solid teal;
+}

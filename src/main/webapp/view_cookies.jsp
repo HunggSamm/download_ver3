@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Murach's Java Servlets and JSP</title>
-    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/design.css" type="text/css"/>
 </head>
 <body>
 
@@ -26,9 +26,9 @@
     </c:forEach>
 </table>
 
-<p><a href="download?action=viewAlbums">View list of albums</a></p>
+<p><a class="link" href="download?action=viewAlbums">View list of albums</a></p>
 
-<p><a href="download?action=deleteCookies">Delete all persistent cookies</a></p>
+<p><a class="link" href="download?action=deleteCookies">Delete all persistent cookies</a></p>
 
 </body>
 </html>

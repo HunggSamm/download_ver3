@@ -6,7 +6,6 @@ import java.util.*;
 import xuanhung.com.business.User;
 
 public class UserIO {
-
     public static boolean add(User user, String filepath) {
         try {
             File file = new File(filepath);
